@@ -2,11 +2,16 @@
 import React, { Component } from "react";
 import Nav from "./components/Nav";
 import "./App.css";
+import { Container } from "react-bootstrap";
+
 
 class App extends Component {
   render() {
     return (
-      <Nav />
+      <Container fluid style={{ backgroundColor: "gray" }}>
+        <Nav />
+      </Container>
+
     );
   }
 }
