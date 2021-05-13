@@ -3,7 +3,7 @@ import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 
 function Home() {
     return (
-        <Container className="align-center">
+        <Container id="home" className="align-center">
             <Row>
                 <Col size="sm-9">
                     <Jumbotron>

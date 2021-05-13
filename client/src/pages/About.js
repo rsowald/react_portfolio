@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function About() {
     return (
-        <Container style={{ backgroundColor: "whitesmoke" }}>
+        <Container id="about" style={{ backgroundColor: "whitesmoke" }}>
             <Row>
                 <Col size="sm-12">
                     <h1 style={{ color: "teal", borderBottom: "solid teal 1px", marginBottom: "25px" }}>About Me</h1>
