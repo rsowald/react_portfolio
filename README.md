@@ -8,7 +8,7 @@
    
    This is my professional portfolio built with React. It features several of the applications I created over the course of coding boot camp. It uses a React router and switch to change the page content in response to user interaction without loading new pages.
     
-  ![Landing Page](/public/screenshot.jpg)
+  ![Landing Page](client/public/screenshot.jpg)
   
     ## Table of Contents
   
