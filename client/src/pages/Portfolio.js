@@ -6,9 +6,10 @@ import projectData from "../data/projects";
 function Portfolio() {
     return (
         <Container id="portfolio">
-            <CardDeck>
+            <CardDeck style={{ marginTop: "10px", marginLeft: "auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gridGap: ".5rem" }}>
                 {projectData.map(projectData => (
                     <ProjectCard
+                        key={projectData.title}
                         image={projectData.image}
                         title={projectData.title}
                         repo={projectData.repo}
