@@ -10,11 +10,12 @@ import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
 import "./App.css";
 
+
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="bg" style={{ paddingBottom: "60px" }}>
+      <Router basename={process.env.PUBLIC_URL}>
+        <div className="bg" style={{ paddingBottom: "60px", backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)` }}>
           <MyNav />
           <Switch>
             <Route exact path="/" component={Home} />

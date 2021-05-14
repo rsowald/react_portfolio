@@ -5,7 +5,7 @@ function ProjectCard(props) {
     return (
 
         <Card>
-            <Card.Img variant="top" src={props.image} alt="Screenshot of the project." />
+            <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/${props.image}`} alt="Screenshot of the project." />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
