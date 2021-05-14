@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="bg mb-4">
+        <div className="bg" style={{ paddingBottom: "60px" }}>
           <MyNav />
           <Switch>
             <Route exact path="/" component={Home} />

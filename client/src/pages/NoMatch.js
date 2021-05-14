@@ -3,7 +3,7 @@ import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 
 function NoMatch() {
     return (
-        <Container fluid >
+        <Container fluid style={{ paddingBottom: "600px" }}>
             <Row>
                 <Col size="md-12">
                     <Jumbotron>

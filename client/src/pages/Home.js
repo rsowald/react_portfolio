@@ -3,7 +3,7 @@ import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 
 function Home() {
     return (
-        <Container id="home" className="align-center">
+        <Container id="home" className="align-center" style={{ paddingBottom: "300px" }}>
             <Row>
                 <Col size="sm-9">
                     <Jumbotron>
@@ -17,7 +17,7 @@ function Home() {
                         <p className="lead">
                             <a className="btn btn-outline-info mb-3" href="/portfolio" role="button">Portfolio</a>
                             <br />
-                            <a className="btn btn-outline-info" href="assets/resume.pdf" target={"_blank"} role="button">My
+                            <a className="btn btn-outline-info" href="/resume.pdf" target={"_blank"} role="button">My
                                 Resume</a>
                         </p>
                     </Jumbotron>
