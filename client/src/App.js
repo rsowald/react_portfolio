@@ -7,13 +7,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import Footer from "./components/Footer";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="bg">
+        <div className="bg mb-4">
           <MyNav />
           <Switch>
             <Route exact path="/" component={Home} />
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path="/resume" component={Resume} />
             <Route component={NoMatch} />
           </Switch>
+          <Footer />
         </div>
       </Router >
     );
