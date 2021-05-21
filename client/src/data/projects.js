@@ -8,7 +8,7 @@ export default [
     },
     {
         title: "Meal Planner",
-        image: "portfolioScreenshots/Meal_Planner.jpg",
+        image: "/portfolioScreenshots/Meal_Planner.jpg",
         demo: "https://rsowald.github.io/MealPlanner/",
         repo: "https://github.com/rsowald/MealPlanner",
         text: "AJAX calls to third party APIs, jQuery, JavaScript modal, CSS"
@@ -19,6 +19,13 @@ export default [
         demo: "https://rhubarb-cobbler-10166.herokuapp.com/",
         repo: "https://github.com/rsowald/TechBlog",
         text: "Full stack with MySQL database, Handlebars.js views, and an Express server deployed to Heroku"
+    },
+    {
+        title: "React GoogleBooks Reading List",
+        image: "/portfolioScreenshots/reading_list.jpg",
+        demo: "https://react-googlebooks-reading-list.herokuapp.com/",
+        repo: "https://github.com/rsowald/React-Google-Books-List",
+        text: "React app to search GoogleBooks API, Mongo Cloud DB, deployed to Heroku"
     },
     {
         title: "Weather Dashboard",
