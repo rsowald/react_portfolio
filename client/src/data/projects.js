@@ -1,5 +1,12 @@
 export default [
     {
+        title: "MyLitLife",
+        image: "/portfolioScreenshots/mylitlife.jpg",
+        demo: "https://my-lit-life.herokuapp.com/",
+        repo: "https://github.com/rsowald/MyLitLife",
+        text: "Full stack with Mongo database, React UI, Firebase authentication, and an Express server deployed to Heroku"
+    },
+    {
         title: "GrammaGram",
         image: "/portfolioScreenshots/grammagram.jpg",
         demo: "https://boiling-savannah-28129.herokuapp.com/",
