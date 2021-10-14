@@ -17,7 +17,7 @@ function Home() {
                         <p className="lead">
                             <a className="btn btn-outline-info mb-3" href="/react_portfolio/portfolio" role="button">Portfolio</a>
                             <br />
-                            <a className="btn btn-outline-info" href="/resume.pdf" target={"_blank"} role="button">My
+                            <a className="btn btn-outline-info" href={`${process.env.PUBLIC_URL}/resume.pdf`} target={"_blank"} role="button">My
                                 Resume</a>
                         </p>
                     </Jumbotron>
