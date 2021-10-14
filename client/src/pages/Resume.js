@@ -9,7 +9,7 @@ function Resume() {
                     <h1 style={{ color: "teal", borderBottom: "solid teal 1px", marginBottom: "25px" }}>Resume</h1>
 
                     <h2 style={{ textAlign: "center", fontWeight: "bold" }}>Renae Sowald</h2>
-                    <div className="d-inline offset-sm-5">
+                    <div className="text-center">
                         <a className="d-inline" href="https://github.com/rsowald" target={"_blank"} rel={"noopener noreferrer"}><i
                             className="fab fa-github"></i> GitHub • </a>
                         <a className="d-inline" href="https://www.linkedin.com/in/renae-sowald" target={"_blank"}
@@ -17,7 +17,6 @@ function Resume() {
                         <a className="d-inline" href="https://www.instagram.com/renaesowald/" target={"_blank"}
                             rel={"noopener noreferrer"}><i className="fab fa-instagram"></i> Instagram</a>
                     </div>
-                    <br />
                     <h3 className="mt-3" style={{ textAlign: "center", fontWeight: "bold" }}>Summary</h3>
                     <p>Full Stack Web Developer, having completed a 24 week coding boot camp with a focus on the MERN stack.
                         A passion for learning coupled with the ability to pick things up very quickly, made adding developer skills
