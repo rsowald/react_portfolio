@@ -3,7 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Resume() {
   return (
-    <Container id="resume" style={{ backgroundColor: "whitesmoke" }}>
+    <Container
+      id="resume"
+      style={{ backgroundColor: "whitesmoke", maxWidth: "70%" }}
+    >
       <Row>
         <Col size="sm-9">
           <h1
@@ -25,6 +28,7 @@ function Resume() {
               href="https://github.com/rsowald"
               target={"_blank"}
               rel={"noopener noreferrer"}
+              style={{ textDecoration: "none" }}
             >
               <i className="fab fa-github"></i> GitHub •{" "}
             </a>
@@ -33,6 +37,7 @@ function Resume() {
               href="https://www.linkedin.com/in/renae-sowald"
               target={"_blank"}
               rel={"noopener noreferrer"}
+              style={{ textDecoration: "none" }}
             >
               <i className="fab fa-linkedin"></i> LinkedIn
             </a>

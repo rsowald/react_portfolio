@@ -7,7 +7,7 @@ function Home() {
       id="home"
       style={{
         backgroundColor: "rgba(220, 220, 220, 0.9)",
-        maxWidth: "800px",
+        maxWidth: "70%",
         padding: "20px",
       }}
     >

@@ -12,7 +12,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1"
   },
-  "homepage": "https://rsowald.github.io/react_portfolio/",
+  "homepage": "https://rsowald.github.io/react_portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
