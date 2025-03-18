@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import MyNav from "./components/Nav";
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
