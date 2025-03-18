@@ -22,11 +22,17 @@ class App extends Component {
         >
           <MyNav />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/resume" component={Resume} />
-            <Route component={NoMatch} />
+            <Route exact path="/"></Route>
+            <Route exact path="/about">
+              <About />
+            </Route>
+            <Route exact path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route exact path="/resume">
+              <Resume />
+            </Route>
+            <Route></Route> <NoMatch />
           </Switch>
           <Footer />
         </div>
