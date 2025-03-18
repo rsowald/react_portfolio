@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MyNav from "./components/Nav";
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
@@ -13,7 +13,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div
           className="bg"
           style={{
@@ -21,22 +21,16 @@ class App extends Component {
           }}
         >
           <MyNav />
-          <Switch>
-            <Route exact path="/"></Route>
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/portfolio">
-              <Portfolio />
-            </Route>
-            <Route exact path="/resume">
-              <Resume />
-            </Route>
-            <Route></Route> <NoMatch />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<NoMatch />} />
+          </Routes>
           <Footer />
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
