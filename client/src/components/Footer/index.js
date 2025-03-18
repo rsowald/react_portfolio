@@ -1,14 +1,17 @@
-import React from "react";
 import "./style.css";
+import { Container } from "react-bootstrap";
 
 function Footer() {
-    return (
-        <footer className="fixed-bottom footer mt-auto py-3">
-            <div className="container">
-                <span className="align-center">Made with ♥ by Renae Sowald 2021 • renaesowald@gmail.com • 937-902-8398</span>
-            </div>
-        </footer>
-    )
+  return (
+    <footer className="py-3">
+      <Container>
+        <span>
+          Made with ♥ by Renae Sowald 2025 • renaesowald@gmail.com •
+          937-902-8398
+        </span>
+      </Container>
+    </footer>
+  );
 }
 
 export default Footer;

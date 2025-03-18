@@ -44,17 +44,23 @@ function Resume() {
             Summary
           </h3>
           <p>
-            I am trained as a Full Stack Web Developer specializing in the MERN
-            stack. However, I have been a technical writer for the last 2 and a
-            half years. Most of my academic experience was in the humanities
-            with a focus on writing, and adding development knowledge made my
-            skill set perfectly tailored to technical writing. I now have
-            experience writing both JavaScript applications and comprehensive
-            accompanying reference materials. Using my research, writing, and
-            coding skills, I also enjoy the challenge of reading technical
-            documents and creating a precis for a team in my own terms. I feel
-            that I could be a passionate, collaborative, and constructive member
-            of a technical writing team.
+            I am a tech company jack-of-all-trades. In June 2021, I completed a
+            full-stack coding boot camp, and was confident that I would work as
+            a full-stack or front-end developer. However, during my job search,
+            I discovered that there were many other jobs that joined my academic
+            strength of clear and concise writing with my new developer skills.
+            Over the last 3 years, I gained real-world experience as a technical
+            writer at start-up tech companies. The pace of development and
+            releases was fast, and I often had to adapt to wear multiple hats.
+            In my last two positions, I worked closely with Marketing and
+            Engineering, contributing content and feedback to projects from
+            social media copy and blogs to technical reference and code
+            walkthrough guides. Unfortunately, in July 2024, my latest employer
+            had to downsize half of its employees. I have since been running my
+            school’s PTA and art program. In any role, I enjoy learning new
+            tools, solving problems, and delivering quality results. I feel that
+            I could be a passionate, collaborative, and constructive member of a
+            technical writing team.
           </p>
           <h3 style={{ textAlign: "center", fontWeight: "bold" }}>
             Technical Skills
@@ -73,12 +79,40 @@ function Resume() {
               Concepts: MVC, responsive design, test-driven development, git,
               agile methodologies
             </li>
-            <li>Spoken Languages: English, Spanish, German</li>
+            <li>Spoken Languages: English, Spanish, German, Mandarin</li>
           </ul>
 
           <h3 style={{ textAlign: "center", fontWeight: "bold" }}>
             Experience
           </h3>
+          <p>
+            Frank Love Elementary, Bothell, WA – PTA President & Art Docent
+            Coordinator AUG 2022 - Current
+          </p>
+          <ul>
+            <li>
+              Given an art project idea, I created monthly PowerPoint
+              presentations walking through the project with an art history and
+              theory lesson built in.
+            </li>
+            <li>
+              Created copious flyers that were both informative and
+              aesthetically pleasing using Canva.
+            </li>
+            <li>
+              Hosted monthly public meetings, set and managed a sizable budget,
+              and conformed to all legal and organizational requirements.
+            </li>
+            <li>
+              Managed around 15 active members at a time, acting as point of
+              contact for all committees.
+            </li>
+            <li>
+              Ran point on at least 3 community events yearly, including
+              volunteer or vendor coordination, setup, communications, and
+              budgeting.
+            </li>
+          </ul>
 
           <p>Event Store, Remote - Bothell, WA, AUGUST 2023-JULY 2024</p>
           <ul>
