@@ -6,10 +6,10 @@
   "dependencies": {
     "axios": "^1.7.7",
     "gh-pages": "^6.1.1",
-    "react": "^16.6.3",
-    "react-bootstrap": "^1.6.0",
-    "react-dom": "^16.6.3",
-    "react-router-dom": "^5.2.0",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.3.0",
     "react-scripts": "^5.0.1"
   },
   "homepage": "https://rsowald.github.io/react_portfolio",

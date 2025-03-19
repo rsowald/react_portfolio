@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "express": "^4.16.3",
-    "if-env": "^1.0.4"
+    "express": "5.0.1",
+    "if-env": "^1.0.4",
+    "react-router": "^7.3.0"
   }
 }
